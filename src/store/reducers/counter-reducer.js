@@ -4,7 +4,7 @@ const initialState = {
 
 const setCounter = (state = initialState, action) => {
   switch (action.type) {
-    case "INC":
+    case "INC_ASYNC":
       return {
         ...state,
         counter: state.counter + action.payload

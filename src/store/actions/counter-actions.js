@@ -11,3 +11,10 @@ export const decrement = counter => {
     payload: counter
   };
 };
+
+export const incrementAsync = counter => {
+  return {
+    type: "INC_ASYNC",
+    payload: counter
+  };
+};
