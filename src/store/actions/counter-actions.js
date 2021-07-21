@@ -18,3 +18,10 @@ export const incrementAsync = counter => {
     payload: counter
   };
 };
+
+export const decrementAsync = counter => {
+  return {
+    type: "DEC_ASYNC",
+    payload: counter
+  }
+}
